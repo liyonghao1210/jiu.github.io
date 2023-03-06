@@ -6,7 +6,13 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{di
 
 .mark-lm1{ display:inline;}
 @media screen and (max-width:1200px) {
-.mark-lm1{ display:none;}
+/* .mark-lm1{ display:none;} */
+.mark-lm1 table{
+  width: 100% !important;
+}
+.mark-lm1 table tbody tr td img{
+  width: 80%;
+}
 }
 
 .mark-lm2{ display:inline;}
